@@ -1,0 +1,22 @@
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+}
+
+li {
+     list-style: none;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 8px;
+}
