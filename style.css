@@ -87,7 +87,7 @@ button {
 
 .subtext {
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 .quote {
@@ -107,4 +107,19 @@ button {
     display: flex;
     justify-content: flex-end;
     font-weight: 300;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sign-up-notice {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 100px;
+    width: 500px;
 }
