@@ -19,11 +19,13 @@ li {
     justify-content: space-between;
     align-items: center;
     width: 1000px;
+    font-size: 24px;
 }
 
 .header-links {
     display: flex;
     gap: 8px;
+    font-size: 18px;
 }
 
 .bottom-header {
@@ -34,6 +36,18 @@ li {
     width: 1000px;
     flex: auto;
     margin-top: 48px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
 }
 
 .bottom-header-picture {
