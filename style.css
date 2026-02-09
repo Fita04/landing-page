@@ -109,17 +109,35 @@ button {
     font-weight: 300;
 }
 
+
 .call-to-action {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 50px;
 }
 
 .sign-up-notice {
     display: flex;
-    justify-content: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     background-color: #3882f6;
     color: #f9faf8;
     height: 100px;
     width: 500px;
+    padding: 50px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.sign-up-button {
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 50px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
 }
