@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .header {
     display: flex;
@@ -14,9 +17,21 @@ li {
 .top-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
     display: flex;
     gap: 8px;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header-picture {
+    height: 250px;
+    width: 250px;
+
 }
