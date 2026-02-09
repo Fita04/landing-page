@@ -133,11 +133,30 @@ button {
 .sign-up-button {
     display: flex;
     flex-direction: row;
-    width: 70px;
+}
+
+.sign-up-button button {
+    border-color: #e5e7eb;
+    width: 100px;
     height: 50px;
 }
 
 .sign-up-text {
     display: flex;
     flex-direction: column;
+}
+
+.action-top-text {
+    font-weight: 700;
+}
+
+.action-bottom-text {
+    color: #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px;
 }
