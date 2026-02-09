@@ -54,9 +54,14 @@ button {
 
 .images-and-subtext {
     display: flex;
+    gap: 12px;
 }
 
 .information-image {
     height: 150px;
     width: 150px;
+}
+
+.item {
+    text-align: center;
 }
