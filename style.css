@@ -18,6 +18,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1000px;
 }
 
 .header-links {
@@ -28,10 +29,19 @@ li {
 .bottom-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    width: 1000px;
+    flex: auto;
+    margin-top: 48px;
 }
 
 .bottom-header-picture {
     height: 250px;
-    width: 250px;
+    width: 500px;
+}
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
