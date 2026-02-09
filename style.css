@@ -45,3 +45,18 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
 }
+
+.information {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.images-and-subtext {
+    display: flex;
+}
+
+.information-image {
+    height: 150px;
+    width: 150px;
+}
